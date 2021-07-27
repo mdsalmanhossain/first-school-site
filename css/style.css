@@ -326,6 +326,11 @@ FOOTER SECTION CSS
 .fotter_con .row li a {
     text-decoration: none;
     color: #ffffff;
+    transition: .2s ease-in-out;
+}
+
+.fotter_con .row li a:hover {
+    color: #ddd;
 }
 
 #footer span {
