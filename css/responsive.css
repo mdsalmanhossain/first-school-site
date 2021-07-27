@@ -39,6 +39,8 @@
 @media (max-width:669px) {
     .students .row {
         width: 100%;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 
     #testi .img_l {
