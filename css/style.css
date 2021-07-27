@@ -57,6 +57,10 @@ img {
     height: 43px;
 }
 
+.navbar-nav {
+    align-items: center;
+}
+
 #navbarNav ul li .sing_in_btn  {
     font-family: Roboto;
     font-style: normal;
