@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins',sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: 70px auto;
+}
+
+/* *****************
+
+^^^^ DEFULT CSS ^^^^
+
+****************** */
+
+
+.top_sec {
+    background: #cde7cd;
+}
+
+.top_sec .container {
+    margin: 0 auto;
+}
+
+.header_nav {
+    background: #F0FFF0;
+    width: 1440px;
+    height: 576px;
+}
+
+.navbar-brand {
+    width: 198.07px;
+    height: 59px;
+}
+
+.sing_in_btn {
+    background: #21B573;
+    border-radius: 25px;
+    padding: 12px 28px;
+    width: 104px;
+    height: 43px;
+}
+
+#navbarNav ul li .sing_in_btn  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+#navbarNav ul li {
+    margin-left: 30px;
+}
+
+#navbarNav ul li a {
+    font-family: poppins;
+    line-height: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ****************
+
+HERO SECTION CSS
+
+**************** */
+
+.hero_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.contant_area {
+    width: 405px;
+}
+
+.hero_c_left h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+
+.hero_c_left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.hero_c_left h1 span {
+    color: #21B573;
+}
+
+.hero_c_left p {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.hero_c_left .clk_me {
+    border: none;
+    background: #21B573;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* ****************
+
+STUDENTS SECTION CSS
+
+**************** */
+
+
+.students{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students .row {
+    width: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.students .row:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
+
+.inner_items img {
+    width: 66px;
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.inner_items {
+    text-align: center;
+    background-color: #F8FFFB;
+    padding: 41px 20px;
+}
+
+.inner_items h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.inner_items p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #9c9c9c;
+}
+
+
+/* ****************
+
+COURSE SECTION CSS
+
+**************** */
+
+
+
+#courses .c_title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#courses .card {
+    border-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+#courses .card .card_img {
+    padding: 20px 20px 20px 20px;
+}
+
+#courses .card h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+#courses .card p {
+    color: #585859;
+}
+
+#courses .card .btn-primary {
+    border-radius: 33px;
+    background: #21B573;
+    padding: 8px 28px;
+    border: none;
+}
+
+#courses .card .card-footer {
+    border: none;
+    background: #ffffff;
+}
+
+#courses .card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+/* ****************
+
+TESTI SECTION CSS
+
+**************** */
+
+
+#testi h1 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 20px;
+}
+
+#testi .img_l {
+    background-image: url(../images/Photos/Man.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+#testi .description {
+    width: 580px;
+    height: 90px;
+    margin-left: 15px;
+}
+
+#testi .description p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+#testi .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* ****************
+
+FOOTER SECTION CSS
+
+**************** */
+
+
+#footer {
+    background: #282531;
+    color: #ffffff;
+    padding: 30px 0px 0px 0px;
+}
+
+.fotter_con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotter_con .row {
+    width: 25%;
+}
+
+.fotter_con .row p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.fotter_con .row li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.fotter_con .row li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer span {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#footer .footer_text {
+    text-align: center;
+    margin-top: 90px;
+}
+

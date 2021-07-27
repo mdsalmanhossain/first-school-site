@@ -1,0 +1,62 @@
+@media (max-width:991px) {
+    .hero_items {
+    position: relative;
+    }
+    .hero_c_left {
+        position: absolute;
+        color: white;
+        text-align: center;
+        z-index: 1;
+        text-shadow: 7px 2px 11px black;
+    }
+    .hero_c_right {
+        width: 100%;
+        z-index: 0;
+        opacity: .2;
+    }
+    .students .row {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    #testi .img_l {
+        margin-bottom: 20px;
+    }
+
+    .fotter_con {
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+
+    .fotter_con .row {
+        width: 50%;
+    }
+}
+
+
+
+
+@media (max-width:669px) {
+    .students .row {
+        width: 100%;
+    }
+
+    #testi .img_l {
+        margin-bottom: 20px;
+    }
+
+    .fotter_con {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fotter_con p {
+        text-align: left;
+    }
+
+    .fotter_con .row {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
